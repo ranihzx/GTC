@@ -112,7 +112,7 @@ body {
 .o-que-é-o-gtc {
   margin-top: -10px;
   display: flex;
-  padding: 50px;
+  padding: 65px;
   background-color: #10222E;
   color: white;
 }
@@ -143,7 +143,7 @@ body {
 }
 
 .botão-contribua {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: 'Be Vietnam Pro', sans-serif;
   padding: 7px 45px;
   color: #10222E;
@@ -219,29 +219,29 @@ body {
 
 @media screen and (max-width: 1150px) {
   .navigation-manual {
-    bottom: 25px;
+    bottom: 40px;
   }
 
   .manual-btn {
-    padding: 5px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 50px;
   }
 
   .manual-btn:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 25px;
   }
 
   .navigation-auto div {
-    padding: 5px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 50px;
   }
 
   .navigation-auto{ 
-    bottom: 25px;
+    bottom: 40px;
   }
 
   .navigation-auto div:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 25px;
   }
   
   .o-que-é-o-gtc {
@@ -249,8 +249,22 @@ body {
     display: flex;
     align-items: center;
   }
+
+  .o-que-é-o-gtc-título {
+    font-size: 4rem;
+  }
+
   .o-que-é-o-gtc-texto {
     margin: 0px;
+  }
+
+  .o-que-é-o-gtc-texto p {
+    font-size: 1.2rem;
+  }
+
+  .botão-contribua {
+    font-size: 2.5rem;
+    margin: 50px auto 25px;
   }
 
   .foto-elenco {
@@ -261,11 +275,23 @@ body {
     width: 100%;
   }
 
+  .título-seção {
+    font-size: 4rem;
+  }
+
+  .título-metades {
+    font-size: 4rem;
+  }
+
   .roteiros {
     flex-direction: column;
   }
 
-  #último {
+  .metade-texto {
+    font-size: 0.8rem;
+  }
+
+  .último {
     padding-bottom: 50px;
   }
 }

@@ -2,10 +2,10 @@ let count = 1;
 document.getElementById("radio1").checked = true;
 
 setInterval(function() {
-    nextImage();
-}, 6000)
+    proximaImagem();
+}, 4000)
 
-function nextImage() {
+function proximaImagem() {
     count++;
     if(count > 4) {
         count = 1;

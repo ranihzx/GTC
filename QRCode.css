@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #10222E;
+    line-height: 1.5;
+}
+
+.fundo {
+    position: absolute;
+    width: 100%; 
+    display: flex;
+    overflow: hidden;
+}
+
+.QRCode {
+    width: 100%;
+    height: auto;  
+}
+
+.logo {
+    opacity: 10%;
+    width: 61rem;
+}
+
+#um {
+    margin-left: -30%;
+}
+
+#dois {
+    margin-left: 36.5%;
+}
+
+.escrita {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.escrita h1 {
+    font-size: 5rem;
+    margin-top: -1px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.clicavel {
+    transition: transform 0.2s ease;
+    position: relative;
+    margin-top: -180px;
+    width: 340px;
+    height: 340px;
+}
+
+.clicavel:hover .personagem {
+    transform: scale(1.05);
+}
+
+.clicavel:hover .retangulo {
+    transform: scale(1.05) rotate(45deg);
+}
+
+.clicavel:hover h3, .clicavel:hover p{
+    transform: translateY(50px);
+}
+
+.clicavel:active {
+    transform: scale(0.95);
+}
+
+.retangulo {    
+    position: absolute;
+    z-index: 0;
+    width: 340px;
+    height: auto;
+    transition: transform 0.4s ease;
+    left: 0;
+}
+
+.personagem {
+    margin-top: 15px;
+    z-index: 1;
+    width: auto;
+    height: 300px;
+    position: relative;
+    transition: transform 0.4s ease;
+}
+
+.icons h3 {
+    font-size: 2rem;
+    margin: 35px 0 0;
+}
+
+.icons h3, .icons p {
+    z-index: 2;
+    position: relative;
+    transition: transform 0.4s ease;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #10222E;
+}
+
+.professor, .aluno {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citacao {
+    margin: 8px 0 0;
+    
+}
+
+.autor {
+    margin: 5px;
+}
+
+@media screen and (max-width: 1350px) {
+    .QRCode {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icons {
+        flex-direction: column;
+        margin-top: -40px;
+        width: 330px;
+        height: 1010px;
+    }
+
+    .professor:hover .clicavel {
+        transform: translateY(60px);
+    }
+
+    .icons:hover .aluno {
+        transform: translateY(110px);
+    }
+    
+    .aluno:hover .clicavel {
+        transform: translateY(-40px);
+    }
+
+    .aluno {
+        margin-top: 180px;
+        transition: transform 0.4s ease;
+    }
+
+    .clicavel {
+        margin-top: 0;
+    }
+}
