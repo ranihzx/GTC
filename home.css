@@ -207,13 +207,13 @@ body {
   background-color: #577099;
 }
 
-.título-metades {
+.roteiros h2 {
   font-size: 2.5rem;
   padding-left: 50px;
   margin-bottom: 15px;
 }
 
-.metade-texto {
+.roteiros p {
   margin: 0px 50px;
 }
 
@@ -236,7 +236,7 @@ body {
     border-radius: 50px;
   }
 
-  .navigation-auto{ 
+  .navigation-auto { 
     bottom: 40px;
   }
 
@@ -259,7 +259,7 @@ body {
   }
 
   .o-que-é-o-gtc-texto p {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
 
   .botão-contribua {
@@ -279,16 +279,21 @@ body {
     font-size: 4rem;
   }
 
-  .título-metades {
-    font-size: 4rem;
+  .conheça-nossa-arte-miniaturas img {
+    width: 10000px;
+    height: auto;
   }
-
+  
   .roteiros {
     flex-direction: column;
   }
 
-  .metade-texto {
-    font-size: 1.2rem;
+  .roteiros h2 {
+    font-size: 4rem;
+  }
+
+  .roteiros p {
+    font-size: 32px;
   }
 
   .último {
