@@ -6,6 +6,7 @@ setInterval(function() {
 }, 4000)
 
 function proximaImagem() {
+    document.getElementById("radio"+count).checked = false;
     count++;
     if(count > 4) {
         count = 1;
