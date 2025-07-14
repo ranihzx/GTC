@@ -200,10 +200,12 @@ body {
 }
 
 .metade1 {
+  width: 50%;
   margin-bottom: 50px;
 }
 
 .metade2 {
+  width: 50%;
   background-color: #577099;
 }
 
@@ -284,6 +286,14 @@ body {
     height: auto;
   }
   
+  .metade1 {
+    width: 100%;
+  }
+
+  .metade2 {
+    width: 100%;
+  }
+
   .roteiros {
     flex-direction: column;
   }
@@ -292,8 +302,8 @@ body {
     font-size: 4rem;
   }
 
-  .roteiros p {
-    font-size: 32px;
+  .roteiros-texto {
+    font-size: 16px;
   }
 
   .último {
