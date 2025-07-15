@@ -140,11 +140,11 @@ body {
     }
     
     .professor:hover .clicavel {
-        transform: translateY(60px);
+        transform: translateY(50px);
     }
     
     .icons:hover .aluno {
-        transform: translateY(110px);
+        transform: translateY(100px);
     }
     
     .aluno:hover .clicavel {
@@ -212,13 +212,13 @@ body {
     }
 
     .aluno {
-        margin-top: 700px;
+        margin-top: 750px;
     }
 
     .professor h3, .aluno h3 {
         width: 800px;
         font-size: 80px;
-        margin-top: 65px;
+        margin-top: 80px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -228,5 +228,33 @@ body {
         width: 850px;
         left: 50%;
         transform: translateX(-50%);
+    }
+    
+    .clicavel:hover .personagem {
+        transform: translateY(25px) scale(1.1);
+    }
+
+    .professor:hover .clicavel p, .professor:hover .clicavel h3 {
+        transform: translateX(-50%) translateY(150px);
+    }
+
+    .professor:hover .retangulo {
+        transform: translateX(-50%) translateY(50px) scale(1.05) rotate(45deg);
+    }
+
+    .aluno:hover .clicavel p, .aluno:hover .clicavel h3 {
+        transform: translateX(-50%) translateY(150px);
+    }
+
+    .aluno:hover .retangulo {
+        transform: translateX(-50%) translateY(50px) scale(1.05) rotate(45deg);
+    }
+
+    .icons:hover .aluno {
+        transform: translateY(190px);
+    }
+
+    .aluno:hover .clicavel {
+        transform: translateY(-110px);
     }
 }
