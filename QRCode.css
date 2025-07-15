@@ -128,8 +128,22 @@ body {
         align-items: center;
     }
 
+    .fundo {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 1000px;
+        height: auto;
+    }
+
+    #um {
+        margin-left: -37%;
+    }
+
     #dois {
-        margin-left: 28%;
+        margin-left: 62.5%;
+        margin-top: -180px;
     }
 
     .icons {
@@ -159,6 +173,10 @@ body {
     .clicavel {
         margin-top: 0;
     }
+    
+    .autorAluno {
+        padding-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -166,19 +184,22 @@ body {
         margin: 0px;
     }
     
-    .fundo2 {
+    .fundo {
         flex-direction: column;
+    }
+
+    .logo {
+        width: 2200px;
+        height: auto;
     }
     
     #um {
-        width: 90rem;
-        margin-left: -42.5rem;
+        margin-left: -65rem;
     }
     
     #dois {
-        width: 90rem;
         margin-top: -10rem;
-        margin-left: 12rem;
+        margin-left: -4.2rem;
     }
 
     .escrita h2 {
@@ -251,10 +272,14 @@ body {
     }
 
     .icons:hover .aluno {
-        transform: translateY(190px);
+        transform: translateY(200px);
     }
 
     .aluno:hover .clicavel {
-        transform: translateY(-110px);
+        transform: translateY(-140px);
+    }
+
+    .autorAluno {
+        padding-bottom: 110px;
     }
 }
