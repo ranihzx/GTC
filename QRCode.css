@@ -128,10 +128,6 @@ body {
         align-items: center;
     }
 
-    .fundo {
-        flex-direction: column;
-    }
-
     .logo {
         width: 1000px;
         height: auto;
@@ -142,40 +138,31 @@ body {
     }
 
     #dois {
-        margin-left: 62.5%;
-        margin-top: -180px;
+        margin-left: 278px;
     }
 
     .icons {
-        flex-direction: column;
-        margin-top: -40px;
+        display: flex;
+        margin-top: -60px;
         width: 330px;
-        height: 1010px;
-    }
-    
-    .professor:hover .clicavel {
-        transform: translateY(50px);
-    }
-    
-    .icons:hover .aluno {
-        transform: translateY(100px);
-    }
-    
-    .aluno:hover .clicavel {
-        transform: translateY(-40px);
+        height: auto;
     }
     
     .aluno {
-        margin-top: 180px;
         transition: transform 0.4s ease;
+        margin-left: 400px;
+    }
+
+    .professor {
+        margin-left: -200px;
     }
 
     .clicavel {
         margin-top: 0;
     }
-    
+
     .autorAluno {
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 }
 
@@ -203,6 +190,7 @@ body {
     }
 
     .escrita h2 {
+        width: 700px;
         font-size: 5rem;
     }
     
@@ -211,29 +199,30 @@ body {
     }
 
     .icons {
+        flex-direction: column;
         margin-top: -50px;
     }
 
     .retangulo {
-        width: 40rem;
+        width: 550px;
         left: 50%;
         transform: translateX(-50%);
     }
 
     .personagem {
-        width: 290px;
+        width: 240px;
         height: auto;
         margin-top: 50px;
     }
 
     .personagemAluno {
-        width: 320px;
+        width: 270px;
         height: auto;
         margin-top: 40px;
     }
 
     .aluno {
-        margin-top: 750px;
+        margin-top: 700px;
     }
 
     .professor h3, .aluno h3 {
@@ -246,7 +235,7 @@ body {
 
     .citacao, .autor {
         font-size: 40px;
-        width: 850px;
+        width: 750px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -279,7 +268,21 @@ body {
         transform: translateY(-140px);
     }
 
-    .autorAluno {
-        padding-bottom: 110px;
+    .professor {
+        margin-left: 0;
+    }
+
+    .aluno {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .citacao, .autor {
+        width: 850px;
+    }
+
+    .aluno {
+        margin-top: 650px;
     }
 }
