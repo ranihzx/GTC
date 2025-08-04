@@ -5,3 +5,155 @@ body {
     line-height: 1.5;
 }
 
+.tela {
+    display: flex;
+}
+
+.retangulo {
+    width: 50%;
+    background-color: #577099;
+    border-radius: 65px;
+    margin: 0 0 0 -20%;
+    width: 70%;
+    height: 100vh;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.retangulo h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 0 0 0 370px;
+    padding-top: 60px;
+}
+
+.retangulo p {
+    font-size: 1.1rem;
+    width: 640px;
+    color: white;
+    margin-left: 370px;
+}
+
+.botaoPaginaInicial {
+    margin-left: 370px;
+    color: #10222E;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: 2px;
+    font-size: 1.2rem;
+    padding: 8px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);   
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.botaoPaginaInicial:active {
+    transform: scale(0.95);
+}
+
+.botaoPaginaInicial b {
+    padding: 8px 30px;
+    color: #10222E;
+}
+
+.botaoPaginaInicial a {
+    text-decoration: none;
+}
+
+.pecas {
+    width: 50%;
+}
+
+.tituloPecas {
+    text-align: right;
+}
+
+.tituloPecas{
+    margin: 30px 50px 0 0;
+    padding: 0;
+}
+
+.areaCarrossel {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.areaCarrosselMiniaturas {
+    display: flex;
+    overflow: hidden;
+    width: 88%;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.innerCarrossel {
+    display: flex;
+}
+
+.areaCarrosselMiniaturas img {
+    width: 250px;
+    border-radius: 20px;
+    margin: 25px 0 0 20px;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+}
+
+.degrade {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to left, white 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.degrade:not(:last-child) {
+    left: 0;
+    background: linear-gradient(to right, white 0%, transparent 100%);
+}
+
+.slider {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    right: 30px;
+    cursor: pointer;
+    bottom: 37%;
+    transition: transform 0.2s ease, box-shadow 0.5s ease;
+}
+
+.slider:not(:last-child) {
+    left: 30px;
+}
+
+.slider:active {
+    transform: scale(0.95);
+}
+
+.seta {
+    position: absolute;
+    top: -16px;
+    left: 15px;
+    font-size: 28px;
+    color: #10222E;
+}
+
+.imagemCentral {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.contato {
+    margin-top: -20px;
+}

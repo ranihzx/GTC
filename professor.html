@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>GTC - Grupo de Teatro Científico</title>
+        <meta name="description" content="Site de recepção: Professor">
+        <meta name="author" content="Raniele Pereira">
+        <meta name="keywords" content="GTC, Grupo de Teatro Científico, UEPG, Grupo de Teatro Científico da UEPG, GTC - UEPG, GTC UEPG">
+        <link rel="icon" href="Imagens/Site/Icon.png" type="image/png">
+        <link rel="stylesheet" href="professor.css">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>GTC - Grupo de Teatro Científico</title>
-    <meta name="description" content="Site de recepção: Professor">
-    <meta name="author" content="Raniele Pereira">
-    <meta name="keywords" content="GTC, Grupo de Teatro Científico, UEPG, Grupo de Teatro Científico da UEPG, GTC - UEPG, GTC UEPG">
-    <link rel="icon" href="Imagens/Site/Icon.png" type="image/png">
-    <link rel="stylesheet" href="professor.css">
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-</head>
+    <body>
+        <div class="tela">
+            <div class="retangulo">
+                <h1>Olá, docente!</h1>
+                <p>Este é o seu espaço!</p>
+                <p>Aqui, você vai encontrar os roteiros das peças teatrais do GTC, cuidadosamente elaborados para dialogar com temas importantes e atuais. Em cada página dedicada a uma peça, também incluímos indicações de materiais complementares, como textos, vídeos e sugestões de atividades, que você pode utilizar em sala de aula para aprofundar, junto com seus alunos, os assuntos abordados em cada apresentação.</p>
+                <p>Nosso objetivo é que esse conteúdo ajude a enriquecer suas aulas, promovendo reflexões, debates e novas formas de aprender por meio da arte.</p>
+                <p>Você pode ir diretamente para a página da peça que assistiu clicando ao lado, ou acessar a página inicial do site clicando no botão abaixo.</p>
+                <button class="botaoPaginaInicial">
+                    <a href="home.html"><b>Página inicial</b></a>
+                </button>
+            </div>
+            <div class="pecas">
+                <h1 class="tituloPecas">Vá direto para a peça</h1>
+                <div class="areaCarrossel">
+                    <div class="areaCarrosselMiniaturas">
+                        <div class="innerCarrossel">
+                            <a href="pingo.html"> 
+                                <img src="Imagens/7Ensaios/1.jpg" alt="A que faz - Miniatura"> <!-- Começa na esquerda -->
+                            </a>
+                            <a href="chagas.html">
+                                <img src="Imagens/Chagas/1.jpg" alt="A que faz - Miniatura"> <!-- Começa no meio -->
+                            </a>
+                            <a href="aQueFaz.html">
+                                <img src="Imagens/AQueFaz/Miniatura.png" alt="A que faz - Miniatura"> <!-- Começa na direita -->
+                            </a>
+                            <a href="7Ensaios.html">
+                                <img src="Imagens/7Ensaios/14.jpg" alt="A que faz - Miniatura">
+                            </a>
+                            <a href="IA.html">
+                                <img src="Imagens/7Ensaios/3.JPG" alt="A que faz - Miniatura">
+                            </a>
+                        </div>                        
+                        <div class="degrade"></div>
+                        <div class="degrade"></div>
+                    </div>
+                    <button class="slider esquerda">
+                        <p class="seta">←</p>
+                    </button>
+                    <button class="slider direita">
+                        <p class="seta">→</p>
+                    </button>
+                </div>
+                <div>
+                    <h1 class="tituloPecas contato">Entre em contato conosco</h1>
+                </div>
+            </div>
+        </div>
+
+        <script src="professor.js"></script>
+    </body>
+</html>
